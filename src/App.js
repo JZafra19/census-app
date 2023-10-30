@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Census from './component/Census';
+import Capstone from './component/Capstone';
 
 function App() {
   return (
@@ -7,7 +9,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <Census></Census>
+          <Capstone></Capstone>
         </p>
         <a
           className="App-link"
